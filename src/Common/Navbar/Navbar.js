@@ -19,27 +19,27 @@ class Navbar extends Component{
                     IS_AUTHENTICATED() ? (
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-a" href="#">Hola {payload().email} !!</a>
+                                <a className="nav-link" href="#">Hola {payload().email} !!</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-a" href="/people/1">People</a>
+                                <a className="nav-link" href="/people/1">People</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-a" href="/planets/1">Planets</a>
+                                <a className="nav-link" href="/planets/1">Planets</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-a" href="/users">Users</a>
+                                <a className="nav-link" href="/users">Users</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-a" href="/logout">Logout</a>
+                                <a className="nav-link" href="/logout">Logout</a>
                             </li>
                         </ul>
                     ): ( <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-a" href="/">Home</a>
+                                <a className="nav-link" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-a" href="/login">Login</a>
+                                <a className="nav-link" href="/login">Login</a>
                             </li>
                         </ul>
                         )
